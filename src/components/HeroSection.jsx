@@ -1,6 +1,7 @@
 
 import phoneMockup from '../assets/mockupMobile.png'
-import ButtonPrincipal from './ButtonPrincipal';
+import GooglePlayButton from './GooglePlayButton';
+import AppStoreButton from './AppStoreButton';
 
 export default function HeroSection() {
   return (
@@ -15,9 +16,10 @@ export default function HeroSection() {
           <p className="text-lg text-gray mb-8 max-w-xl">
             Descubrí nuevas rutas, sumate a eventos moteros y conectá con la comunidad. Todo en una sola app pensada para vos y tu moto.
           </p>
-          <ButtonPrincipal href="#cta">
-            🚀 ¡Descargala gratis ahora!
-          </ButtonPrincipal>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <GooglePlayButton href="#cta" />
+            <AppStoreButton href="#cta" />
+          </div>
         </div>
 
         <div className="relative w-full max-w-sm mx-auto overflow-hidden">

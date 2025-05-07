@@ -23,7 +23,7 @@ export default function HowItWorksSection() {
     ];
   
     return (
-      <section className="bg-background text-light py-10 px-2">
+      <section className="bg-background text-light py-10 px-2" id="how">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-16">
             ¿Cómo funciona Moteando?

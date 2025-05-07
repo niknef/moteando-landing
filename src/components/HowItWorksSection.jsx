@@ -23,9 +23,9 @@ export default function HowItWorksSection() {
     ];
   
     return (
-      <section className="bg-[#202020] text-light py-16 px-6">
+      <section className="bg-background text-light py-10 px-2">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold mb-16">
             ¿Cómo funciona Moteando?
           </h2>
   
@@ -33,7 +33,7 @@ export default function HowItWorksSection() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="bg-[#2b2b2b] p-6 rounded-lg shadow-sm flex flex-col items-center"
+                className="bg-[#2b2b2b] p-6 rounded-lg shadow-sm flex flex-col items-center mb-16"
               >
                 <div className="text-4xl mb-4">{step.icon}</div>
                 <h3 className="text-lg font-semibold mb-2">{step.title}</h3>

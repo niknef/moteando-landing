@@ -12,8 +12,9 @@ export default function HomePage() {
     <>
       <HeaderSection />
       <HeroSection />
-      <BenefitsSection />
       <HowItWorksSection />
+      <BenefitsSection />
+      
 
     </>
   )

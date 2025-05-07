@@ -1,15 +1,36 @@
-export default function Header() {
-    return (
-      <header className="bg-gray-900 text-white shadow-md">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold tracking-wide">Moteando</h1>
-          <nav className="space-x-6 text-sm uppercase font-semibold">
-            <a href="#features" className="hover:text-orange-400">Características</a>
-            <a href="#screenshots" className="hover:text-orange-400">Capturas</a>
-            <a href="#download" className="hover:text-orange-400">Descargar</a>
-          </nav>
+import logo from '../assets/logo-moteando.svg';
+import ButtonPrincipal from './ButtonPrincipal';
+
+export default function HeaderSection() {
+  const navLinks = [
+    { label: 'Inicio', href: '#hero' },
+    { label: 'Cómo funciona', href: '#how' },
+    { label: 'Comunidad', href: '#community' },
+  ];
+
+  return (
+    <header className="bg-background py-6">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="Logo de Moteando" className="h-12 w-auto" />
+          <h1 className="sr-only">Moteando - Comunidad motera</h1>
         </div>
-      </header>
-    );
-  }
-  
+
+        {/* Alineamos todos al centro con flex items-center */}
+        <nav className="hidden md:flex items-center gap-6 font-thin text-light">
+          {navLinks.map((link, idx) => (
+            <a
+              key={idx}
+              href={link.href}
+              className="hover:text-orange transition text-lg font-thin"
+            >
+              {link.label}
+            </a>
+          ))}
+          <ButtonPrincipal href="#cta" className="text-lg font-medium px-4 py-2">Descargar
+          </ButtonPrincipal>
+        </nav>
+      </div>
+    </header>
+  );
+}

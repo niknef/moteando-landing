@@ -27,30 +27,30 @@ export default function CommunitySection() {
           </div>
         </div>
 
-        {/* Collage de imágenes */}
+        
         <div className="grid grid-cols-3 gap-4 ">
-          {/* Imagen vertical grande */}
+          
           <img
             src={img1}
-            alt="Moteros comunidad 1"
+            alt="Grupo de moteros rodando"
             className="col-span-2 row-span-3 rounded-xl object-cover "
           />
 
-          {/* Columnita de 3 imágenes chicas */}
+          
           <div className="flex flex-col gap-5 h-full">
             <img
               src={img2}
-              alt="Moteros comunidad 2"
+              alt="3 Moteros en la ruta"
               className="rounded-xl object-cover h-1/3 w-full"
             />
             <img
               src={img3}
-              alt="Moteros comunidad 3"
+              alt="Grupo de moteras en la ruta"
               className="rounded-xl object-cover h-1/3 w-full"
             />
             <img
               src={img4}
-              alt="Moteros comunidad 4"
+              alt="Pareja andando en moto"
               className="rounded-xl object-cover h-1/3 w-full"
             />
           </div>

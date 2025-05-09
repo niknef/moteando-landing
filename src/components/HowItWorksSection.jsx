@@ -31,14 +31,14 @@ export default function HowItWorksSection() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => (
-            <div
+            <article
               key={index}
-              className="bg-[#2a2a2a] p-6 rounded-xl shadow-md hover:shadow-[0_0_12px_rgba(232,110,27,0.4)] transition"
+              className="bg-[#2a2a2a] p-6 rounded-xl shadow-md"
             >
               <div className="text-4xl mb-4">{step.icon}</div>
               <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
               <p className="text-sm text-gray">{step.description}</p>
-            </div>
+            </article>
           ))}
         </div>
       </div>

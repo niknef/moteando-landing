@@ -31,17 +31,17 @@ export default function BenefitsSection() {
       </div>
 
       
-      <div className="max-w-6xl mx-auto grid gap-6 md:grid-cols-2 mt-16">
+      <ul className="max-w-6xl mx-auto grid gap-6 md:grid-cols-2 mt-16">
         {items.map((item, idx) => (
-          <div
+          <li
             key={idx}
             className="flex flex-col items-center text-center gap-3 bg-[#2a2a2a] p-6 rounded-lg shadow-md"
           >
             <span className="text-3xl">{item.emoji}</span>
             <p className="text-light font-medium">{item.text}</p>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

@@ -41,7 +41,7 @@ export default function TestimonialsSection() {
             key={idx}
             className="bg-[#2a2a2a] text-center p-10 rounded-lg flex flex-col items-center h-full"
           >
-            {/* Comillas */}
+         
             <svg
               className="h-10 mb-4 text-orange"
               viewBox="0 0 24 27"
@@ -54,14 +54,13 @@ export default function TestimonialsSection() {
               />
             </svg>
 
-            {/* Testimonio */}
             <blockquote>
               <p className="text-xl md:text-2xl font-light italic text-gray-200 leading-relaxed min-h-[100px]">
                 “{t.text}”
               </p>
             </blockquote>
 
-            {/* Usuario */}
+        
             <figcaption className="flex flex-col items-center mt-6 space-y-3">
               <img
                 src={t.avatar}
@@ -73,7 +72,7 @@ export default function TestimonialsSection() {
                 <span className="text-xs text-gray-400">{t.role}</span>
               </div>
 
-              {/* Estrellas */}
+           
               <div className="flex justify-center mt-2">
                 {Array.from({ length: 5 }, (_, i) => (
                   <svg

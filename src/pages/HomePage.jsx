@@ -4,8 +4,8 @@ import BenefitsSection from '../components/BenefitsSection'
 import HowItWorksSection from '../components/HowItWorksSection'
 import CommunitySection from '../components/CommunitySection'
 import TestimonialsSection from '../components/TestimonialsSection'
-// import FinalCTASection from '../components/FinalCTASection'
-// import FooterSection from '../components/FooterSection'
+import FinalCTASection from '../components/FinalCTASection'
+import FooterSection from '../components/FooterSection'
 
 export default function HomePage() {
   return (
@@ -16,8 +16,8 @@ export default function HomePage() {
       <BenefitsSection />
       <CommunitySection />
       <TestimonialsSection />
-        {/* <FinalCTASection /> */}
-        {/* <FooterSection /> */}
+      <FinalCTASection />
+      <FooterSection />
 
       
 

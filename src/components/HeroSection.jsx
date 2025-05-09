@@ -16,7 +16,7 @@ export default function HeroSection() {
           <p className="text-lg text-gray mb-8 max-w-xl">
             Descubrí nuevas rutas, sumate a eventos moteros y conectá con la comunidad. Todo en una sola app pensada para vos y tu moto.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col w-full sm:flex-row sm:justify-center md:justify-start gap-4 items-center sm:items-stretch">
             <GooglePlayButton href="#cta" />
             <AppStoreButton href="#cta" />
           </div>

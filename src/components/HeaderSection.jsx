@@ -1,4 +1,4 @@
-import logo from '../assets/logo-banner-blanco.svg';
+import logo from '../assets/Logo-banner-blanco.svg';
 import ButtonPrincipal from './ButtonPrincipal';
 
 export default function HeaderSection() {

@@ -6,12 +6,14 @@ import CommunitySection from '../components/CommunitySection'
 import TestimonialsSection from '../components/TestimonialsSection'
 import FinalCTASection from '../components/FinalCTASection'
 import FooterSection from '../components/FooterSection'
+import VideoSection from '../components/VideoSection'
 
 export default function HomePage() {
   return (
     <>
       <HeaderSection />
       <HeroSection />
+      <VideoSection />
       <HowItWorksSection />
       <BenefitsSection />
       <CommunitySection />

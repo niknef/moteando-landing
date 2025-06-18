@@ -8,30 +8,31 @@ const testimonials = [
     role: 'KTM Adventure Rider',
     rating: 5,
     avatar: profile1,
-    text: 'La experiencia con Moteando fue excelente. Organizamos una salida grupal en minutos y conocí gente nueva con la misma pasión.',
+    text: 'Gracias a Moteando armamos una rodada de más de 15 motos. Hoy seguimos saliendo todos los meses. Fue un antes y un después.',
   },
   {
     name: 'María Fernández',
     role: 'Harley Davidson Sportster',
     rating: 5,
     avatar: profile3,
-    text: 'Me encantó la facilidad para unirme a rutas cercanas. La comunidad es muy activa y la app se siente fluida y confiable.',
+    text: 'Antes salía sola o con mi pareja. Ahora tengo un grupo de moteras con quienes compartimos rutas y experiencias. Es una comunidad posta.',
   },
   {
     name: 'Pablo Sosa',
     role: 'Royal Enfield Meteor',
     rating: 4,
     avatar: profile2,
-    text: 'Lo que más valoro es el sistema de alertas. Me dio mucha tranquilidad viajando solo, sobre todo en trayectos largos.',
+    text: 'Lo que más valoro es la tranquilidad. Las alertas me salvaron cuando pinché en medio del campo. Me sentí acompañado.',
   },
 ];
+
 
 export default function TestimonialsSection() {
   return (
     <section className="bg-[#1c1c1c] text-light py-24 px-6">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-light">
-          ¿Qué dicen los primeros en probarla?
+        <h2 className="text-3xl md:text-4xl font-medium">
+          Historias reales. Experiencias sobre la ruta.
         </h2>
       </div>
 

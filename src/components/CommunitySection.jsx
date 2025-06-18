@@ -10,21 +10,21 @@ export default function CommunitySection() {
         
         {/* Texto emocional */}
         <div className="text-center md:text-left md:h-[400px] md:flex md:flex-col md:justify-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange">
-            Creada por y para motociclistas.
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-medium mb-6 text-orange">
+          Una comunidad que vibra sobre dos ruedas
+        </h2>
 
-          <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
-            <p>
-              <strong>Moteando</strong> no nació en un escritorio: nació en la ruta, en los encuentros, en los mensajes entre moteros que querían salir a rodar.
-            </p>
-            <p>
-              <em>Sabemos lo que se siente:</em> el viento en la cara, la hermandad en cada curva, y la necesidad de estar conectados sin perder la esencia de la aventura.
-            </p>
-            <p>
-              Nuestra <span className="font-semibold">misión</span> es simple: que cada viaje sea más <strong>seguro</strong>, más <strong>divertido</strong> y más <strong>compartido</strong>.
-            </p>
-          </div>
+        <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
+          <p>
+            <span className='font-medium'>Mote</span><span className='font-bold text-orange'>ando</span> no nació en una oficina. Nació en cada mensaje entre moteros que querían salir, en cada curva compartida y en las ganas de no rodar más solos.
+          </p>
+          <p>
+            <em><span className='text-orange'>Sabemos lo que se siente:</span></em> el viento que te despeja, la adrenalina en el pecho, y ese instante mágico en el que cruzás miradas con otro rider y sabés que están en la misma.
+          </p>
+          <p>
+            Nuestra <span className="font-semibold">misión</span> es simple: que cada viaje sea más <strong>seguro</strong>, más <strong>auténtico</strong> y más <strong>compartido</strong>. Porque <span className='font-medium'>Mote</span><span className='font-bold text-orange'>ando</span> no es una app: es una comunidad hecha camino.
+          </p>
+        </div>
         </div>
 
         
@@ -55,6 +55,9 @@ export default function CommunitySection() {
             />
           </div>
         </div>
+      </div>
+      <div className="mt-10 text-center">
+        <p className="text-sm text-orange-400 italic pb-10">+2.500 riders ya son parte. ¿Y vos?</p>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 export default function ButtonPrincipal({ children, href, onClick, className = "" }) {
     const baseClasses =
-      "inline-block bg-orange hover:bg-orange-dark text-white font-semibold px-6 py-3 rounded-full transition";
+      "inline-block bg-orange hover:bg-orange-dark text-white font-semibold px-6 py-3 rounded-xl transition";
   
     if (href) {
       return (

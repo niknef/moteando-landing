@@ -1,5 +1,6 @@
 import GooglePlayButton from './GooglePlayButton';
 import AppStoreButton from './AppStoreButton';
+import paternBg from '../assets/patron.svg'
 
 export default function FinalCTASection() {
   return (
@@ -11,9 +12,10 @@ export default function FinalCTASection() {
         <div
           className="absolute inset-0 bg-repeat opacity-10"
           style={{
-            backgroundImage: 'url(/assets/patron.svg)',
+            backgroundImage: `url(${paternBg})`,
             backgroundSize: '600px',
           }}
+
           aria-hidden="true"
         ></div>
 

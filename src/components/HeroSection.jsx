@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 px-6">
         
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 text-balance">
           <span className='font-medium'>Mote</span><span className='font-bold text-orange'>ando</span>: la comunidad que nace en cada curva.
         </h1>
 
